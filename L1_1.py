@@ -1,6 +1,6 @@
 import random as rnd
 
-arr = [rnd.randint(1, 10) for i in range(0, 10 + 1)]
+arr = [rnd.randint(1, 10) for i in range(0, 10)]
 arr.sort()
 
 print(f"Массив: {arr}")
@@ -14,4 +14,4 @@ for i in arr:
 	else:
 		map[i] = map[i] + 1
 
-print(f"кол-во повторений: {map}")
+print(f"Кол-во повторений: {map}")

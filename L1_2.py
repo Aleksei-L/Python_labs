@@ -1,6 +1,6 @@
 import random as rnd
 
-arr = [rnd.randint(1, 5) for i in range(1, 10 + 1)]
+arr = [rnd.randint(1, 5) for i in range(1, 10)]
 print(f"Исходный список: {arr}")
 
 zipped_list = []
